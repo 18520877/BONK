@@ -7,6 +7,7 @@
 ## Schematic for Verilog HDL
 ![ex1](https://user-images.githubusercontent.com/79905379/111014620-2cef0000-83d7-11eb-86ab-132a63acaafc.png)
 ## Python code for color conversion
+```python
 import numpy as np
 from PIL import Image
 
