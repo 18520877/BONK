@@ -56,25 +56,23 @@ error.write("\n".join(map(str,errorr)))
 error.close()
 
 
-img = np.zeros((400,400),dtype=float)
+img = np.zeros((360,240),dtype=np.uint8)
 y_value = open ("gray_deci.txt","r")
-for i in range(400):
-    for j in range(400):
+for i in range(360):
+    for j in range(240):
         picture = y_value.readline()
-        img[i][j] = float(picture)/255.0
-while True:
-    cv2.imshow("gray_hdl",img)
-    cv2.imwrite("gray_hdl",img)
-    k = cv2.waitkey(10)
-    if k == 27:
-        break
-cv2.destroyAllWindows()
+        img[i][j] = int(picture)
+ima  = Image.fromarray(img,"L")
+ima.save("gray_hdl.jpg")
 
 
 gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 while True:
-        cv2.imshow("",gray)
-        k = cv2.waitKey(10)
-        if k == 27:  # press ESC to exit 
-                break
+    cv2.imshow("ironman_gray.jpg",gray)
+    cv2.imshow("gray_hdl.jpg",img)
+    k = cv2.waitKey(10)
+    if k == 27:
+        break
+
+
 cv2.destroyAllWindows()
