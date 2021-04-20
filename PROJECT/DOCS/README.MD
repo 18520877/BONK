@@ -27,7 +27,11 @@ Với stride = 1:
 Với stride = 2:
 
 ![image](https://user-images.githubusercontent.com/79899590/115432258-60237b00-a230-11eb-83ef-b31395b15c09.png)
+
 v.v
+
+![image](https://user-images.githubusercontent.com/79899590/115432739-eb047580-a230-11eb-807e-d0e51a0a1028.png)
+
 
 # Inception Resnet V2
 ![image](https://user-images.githubusercontent.com/79899590/115391542-c8129b00-a209-11eb-8b73-d2677df27a9b.png)
