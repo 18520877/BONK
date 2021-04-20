@@ -30,8 +30,10 @@ Với stride = 2:
 
 v.v
 
-![image](https://user-images.githubusercontent.com/79899590/115432739-eb047580-a230-11eb-807e-d0e51a0a1028.png)
+#### Pooling
+Tầng pooling (POOL) là một phép downsampling, thường được sử dụng sau tầng tích chập, giúp tăng tính bất biến không gian. Cụ thể, max pooling và average pooling là những dạng pooling đặc biệt, mà tương ứng là trong đó giá trị lớn nhất và giá trị trung bình được lấy ra.
 
+![image](https://user-images.githubusercontent.com/79899590/115435474-10df4980-a234-11eb-94ed-5734d94cc806.png)
 
 # Inception Resnet V2
 ![image](https://user-images.githubusercontent.com/79899590/115391542-c8129b00-a209-11eb-8b73-d2677df27a9b.png)
