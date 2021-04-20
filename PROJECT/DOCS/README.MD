@@ -17,12 +17,15 @@ Mỗi một lần áp dụng phép nhân chập, kích thước của ảnh bị
 
 #### Stride
 Stride được hiểu như là bước đi của filter. Với stride = 1, filter sẽ được dịch qua một pixel và tương tự với các giá trị stride khác.
+
 ![image](https://user-images.githubusercontent.com/79899590/115432175-4a15ba80-a230-11eb-8776-7e2c223369bd.png)
 
 Với stride = 1:
+
 ![image](https://user-images.githubusercontent.com/79899590/115432234-5732a980-a230-11eb-8c51-655d7b91a54d.png)
 
 Với stride = 2:
+
 ![image](https://user-images.githubusercontent.com/79899590/115432258-60237b00-a230-11eb-83ef-b31395b15c09.png)
 v.v
 
