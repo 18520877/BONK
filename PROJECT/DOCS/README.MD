@@ -37,6 +37,8 @@ Tầng pooling (POOL) là một phép downsampling, thường được sử dụ
 
 # Inception Resnet V2
 Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây dựng dựa trên cấu trúc của Inception và có bao gồm liên kết tránh (Residual Connections).
+- Được thử nghiệm trên hệ thống cơ sở dữ liệu của Imagenet, với 164 layers và được ứng dụng để phân loại ảnh lên đến 1000 vật thể khác nhau.
+- Có đầu vào là một bức ảnh có kích thước 299*299 và đầu ra sẽ là các vật thể có độ chính xác cao nhất được nhận dạng từ bức ảnh đầu vào.
 
 ![image](https://user-images.githubusercontent.com/79899590/115391542-c8129b00-a209-11eb-8b73-d2677df27a9b.png)
-![image](https://user-images.githubusercontent.com/79899590/115391558-ce087c00-a209-11eb-968d-4ef222ed8fca.png)
+![image](https://user-images.githubusercontent.com/79899590/115574268-ae498480-a2eb-11eb-9387-537de4082128.png)
