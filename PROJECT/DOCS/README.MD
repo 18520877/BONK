@@ -43,6 +43,7 @@ Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây d�
 ![image](https://user-images.githubusercontent.com/79899590/115391542-c8129b00-a209-11eb-8b73-d2677df27a9b.png)
 ![image](https://user-images.githubusercontent.com/79899590/115574268-ae498480-a2eb-11eb-9387-537de4082128.png)
 
+
 - Sơ đồ khối Stem (299x299x3 → 35x35x384):
 ![image](https://user-images.githubusercontent.com/79899590/115576416-abe82a00-a2ed-11eb-8788-6a3b935d2bdf.png)
 
