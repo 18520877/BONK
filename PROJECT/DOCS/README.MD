@@ -33,8 +33,10 @@ v.v
 #### Pooling
 Tầng pooling (POOL) là một phép downsampling, thường được sử dụng sau tầng tích chập, giúp tăng tính bất biến không gian. Cụ thể, max pooling và average pooling là những dạng pooling đặc biệt, mà tương ứng là trong đó giá trị lớn nhất và giá trị trung bình được lấy ra.
 
-![image](https://user-images.githubusercontent.com/79899590/115435474-10df4980-a234-11eb-94ed-5734d94cc806.png)
+![image](https://user-images.githubusercontent.com/79899590/115572514-2c0c9080-a2ea-11eb-8f56-f2d4512785bc.png)
 
 # Inception Resnet V2
+Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây dựng dựa trên cấu trúc của Inception và có bao gồm liên kết tránh (Residual Connections).
+
 ![image](https://user-images.githubusercontent.com/79899590/115391542-c8129b00-a209-11eb-8b73-d2677df27a9b.png)
 ![image](https://user-images.githubusercontent.com/79899590/115391558-ce087c00-a209-11eb-968d-4ef222ed8fca.png)
