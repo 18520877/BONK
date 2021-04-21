@@ -42,3 +42,21 @@ Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây d�
 
 ![image](https://user-images.githubusercontent.com/79899590/115391542-c8129b00-a209-11eb-8b73-d2677df27a9b.png)
 ![image](https://user-images.githubusercontent.com/79899590/115574268-ae498480-a2eb-11eb-9387-537de4082128.png)
+
+- Sơ đồ khối Stem (299x299x3 → 35x35x384):
+![image](https://user-images.githubusercontent.com/79899590/115576416-abe82a00-a2ed-11eb-8788-6a3b935d2bdf.png)
+
+- Sơ đồ khối Inception-ResNet-A (35x35x384 → 35x35x384):
+![image](https://user-images.githubusercontent.com/79899590/115576473-ba364600-a2ed-11eb-8f52-7d146815de63.png)
+
+- Sơ đồ khối Reduction-A (35x35x384 → 17x17x1152):
+![image](https://user-images.githubusercontent.com/79899590/115576628-e5b93080-a2ed-11eb-88ac-18d45f934190.png)
+
+- Sơ đồ khối Inception-ResNet-B (17x17x1152 → 17x17x1152):
+![image](https://user-images.githubusercontent.com/79899590/115576692-f2d61f80-a2ed-11eb-9578-f533abbd2b52.png)
+
+- Sơ đồ khối Reduction-B (17x17x1152 → 8x8x2144):
+![image](https://user-images.githubusercontent.com/79899590/115576795-097c7680-a2ee-11eb-9971-45107b8e59f4.png)
+
+- Sơ đồ khối Inception-ResNet-C (8x8x2144 → 8x8x2144):
+![image](https://user-images.githubusercontent.com/79899590/115576866-19945600-a2ee-11eb-82f0-6b776c125347.png)
