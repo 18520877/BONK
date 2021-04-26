@@ -1,1 +1,21 @@
-
+# Reference links:
+https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d
+https://dlapplications.github.io/2018-07-17-cnn-introduction/
+https://developer.ibm.com/technologies/artificial-intelligence/models/max-inception-resnet-v2/
+https://arxiv.org/pdf/1512.00567v3.pdf
+https://arxiv.org/pdf/1602.07261v2.pdf
+https://paperswithcode.com/paper/inception-v4-inception-resnet-and-the-impact
+http://www.image-net.org/challenges/LSVRC/2012/browse-synsets
+http://www.image-net.org/challenges/LSVRC/2012/
+https://keras.io/api/applications/#inceptionresnetv2
+https://paperswithcode.com/method/inception-resnet-v2#
+https://paperswithcode.com/method/residual-connection
+https://arxiv.org/abs/1602.07261v2
+https://arxiv.org/abs/1512.03385v1
+https://arxiv.org/pdf/1512.03385v1.pdf
+https://ai.googleblog.com/2016/08/improving-inception-and-image.html
+https://paperswithcode.com/method/inception-resnet-v2
+https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html
+https://www.youtube.com/watch?v=CNNnzl8HIIU
+https://arxiv.org/abs/1603.05027
+https://arxiv.org/pdf/1603.05027.pdf
