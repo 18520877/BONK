@@ -14,6 +14,7 @@ Giống như các lớp ẩn khác, lớp tích chập lấy dữ liệu đầu 
 Mỗi một lần áp dụng phép nhân chập, kích thước của ảnh bị giảm xuống, và vì thế chúng ta chỉ có thể thực hiện nó một vài lần trước khi ảnh trở nên quá nhỏ.
 ![image](https://user-images.githubusercontent.com/79899590/115430145-4ed96f00-a22e-11eb-9e74-35b8cd592d1b.png)
 <img src="https://media.giphy.com/media/j1POIsEwkHai01p3o2/giphy.gif" width="800">
+
 Để khắc phục hai nhược điểm trên, một đường viền phụ (padding) được thêm vào xung quanh ma trận đầu. Việc thêm đường viền phụ làm tăng kích thước của ma trận đầu vào, dẫn tới tăng kích thước ma trận đầu ra. Từ đó độ chênh lệch giữa ma trận đầu ra với ma trận đầu vào gốc giảm. Những ô nằm trên cạnh/ góc của ma trận đầu vào gốc cũng lùi sâu vào bên trong hơn, dẫn tới được sử dụng nhiều hơn trong việc tính toán ma trận đầu ra, tránh được việc mất mát thông tin.
 
 #### Stride
@@ -25,6 +26,11 @@ Trong phép nhân chập ở trên, bộ lọc trượt trên ma trận đầu v
 Tầng pooling (POOL) là một phép downsampling, thường được sử dụng sau tầng tích chập, giúp tăng tính bất biến không gian. Cụ thể, max pooling và average pooling là những dạng pooling đặc biệt, mà tương ứng là trong đó giá trị lớn nhất và giá trị trung bình được lấy ra.
 
 ![image](https://user-images.githubusercontent.com/79899590/115572514-2c0c9080-a2ea-11eb-8f56-f2d4512785bc.png)
+
+<img src="https://media.giphy.com/media/G5aIoazS8RByGOqdMd/giphy.gif" width="800">
+
+![image](https://user-images.githubusercontent.com/79899590/116044817-8f584300-a69b-11eb-9d94-69fe04436a16.png)
+
 
 # Inception Resnet V2
 Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây dựng dựa trên cấu trúc của Inception và có bao gồm liên kết tránh (Residual Connections).
