@@ -18,7 +18,7 @@ Mỗi một lần áp dụng phép nhân chập, kích thước của ảnh bị
 #### Stride
 Trong phép nhân chập ở trên, bộ lọc trượt trên ma trận đầu vào 1 hàng/ cột trong mỗi bước di chuyển. Tuy nhiên, giá trị này có thể bằng 2, 3 hoặc lớn hơn.
 
-<img src="https://media.giphy.com/media/HBzpOGeZLy1f1mEyGC/giphy.gif" width="500">
+<img src="https://media.giphy.com/media/HBzpOGeZLy1f1mEyGC/giphy.gif" width="800">
 
 #### Pooling
 Tầng pooling (POOL) là một phép downsampling, thường được sử dụng sau tầng tích chập, giúp tăng tính bất biến không gian. Cụ thể, max pooling và average pooling là những dạng pooling đặc biệt, mà tương ứng là trong đó giá trị lớn nhất và giá trị trung bình được lấy ra.
