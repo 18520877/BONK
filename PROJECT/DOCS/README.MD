@@ -9,20 +9,28 @@ Giống như các lớp ẩn khác, lớp tích chập lấy dữ liệu đầu 
 ![image](https://user-images.githubusercontent.com/79899590/115431203-3d449700-a22f-11eb-8fac-e99d89f808b1.png)
 <img src="https://media.giphy.com/media/j1POIsEwkHai01p3o2/giphy.gif" width="800">
 
-#### Padding
+##### Padding
 Mỗi một lần áp dụng phép nhân chập, kích thước của ảnh bị giảm xuống, và vì thế chúng ta chỉ có thể thực hiện nó một vài lần trước khi ảnh trở nên quá nhỏ.
 <img src="https://media.giphy.com/media/997QZonj5ZnL4os2YE/giphy.gif" width="1000">
 Để khắc phục hai nhược điểm trên, một đường viền phụ (padding) được thêm vào xung quanh ma trận đầu. Việc thêm đường viền phụ làm tăng kích thước của ma trận đầu vào, dẫn tới tăng kích thước ma trận đầu ra. Từ đó độ chênh lệch giữa ma trận đầu ra với ma trận đầu vào gốc giảm. Những ô nằm trên cạnh/ góc của ma trận đầu vào gốc cũng lùi sâu vào bên trong hơn, dẫn tới được sử dụng nhiều hơn trong việc tính toán ma trận đầu ra, tránh được việc mất mát thông tin.
 
-#### Stride
+##### Stride
 Trong phép nhân chập ở trên, bộ lọc trượt trên ma trận đầu vào 1 hàng/ cột trong mỗi bước di chuyển. Tuy nhiên, giá trị này có thể bằng 2, 3 hoặc lớn hơn.
 
 <img src="https://media.giphy.com/media/HBzpOGeZLy1f1mEyGC/giphy.gif" width="800">
 
-#### Pooling
+#### Tầng Pooling
 Tầng pooling (POOL) là một phép downsampling, thường được sử dụng sau tầng tích chập, giúp tăng tính bất biến không gian. Cụ thể, max pooling và average pooling là những dạng pooling đặc biệt, mà tương ứng là trong đó giá trị lớn nhất và giá trị trung bình được lấy ra.
 
 <img src="https://media.giphy.com/media/G5aIoazS8RByGOqdMd/giphy.gif" width="800">
+
+#### Tầng Fully Connected:
+Tầng cuối cùng của mô hình CNN trong bài toán phân loại ảnh là tầng fully connected layer. Tầng này được dùng để đưa ra kết quả, sau khi Convolutional Layer và Pooling Layer đã nhận được các ảnh truyền qua nó, thì lúc đó ta đã thu được kết quả là model đã đọc được khá nhiều thông tin về ảnh. Vì vậy, để liên kết các đặc điểm đó lại và cho ra output chúng ta sẽ sử dụng Fully connected Layer.
+
+#### Tầng ReLU:
+ReLU Layer chính là một hàm kích hoạt trong neural network. Hàm kích hoạt còn được gọi là activation function. Tác dụng chính của hàm kích hoạt này là việc mô phỏng các nơ ron có tỷ lệ truyền xung qua axon. Hiện nay, hàm ReLU đang được sử dụng khá phổ biến và thông dụng vì nó có nhiều ưu điểm khác nổi bật trong việc huấn luyện các mạng nơ ron và giúp cho việc tính toán trở nên nhanh hơn.
+ReLU layer được sử dụng sau khi mỗi filter map được tính toán ra và áp dụng hàm ReLU lên tất cả các giá trị của filter map.
+
 
 # Inception Resnet V2
 Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây dựng dựa trên cấu trúc của Inception và có bao gồm liên kết tránh (Residual Connections).
