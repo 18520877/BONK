@@ -20,6 +20,7 @@ Trong phép nhân chập ở trên, bộ lọc trượt trên ma trận đầu v
 
 ![image](https://user-images.githubusercontent.com/79899590/116041862-f673f880-a697-11eb-9db2-5e47eb0c7203.png)
 
+https://dlapplications.github.io/img/20180717/strided-example.gif
 
 ![image](https://user-images.githubusercontent.com/79899590/115432175-4a15ba80-a230-11eb-8776-7e2c223369bd.png)
 
