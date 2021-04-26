@@ -6,7 +6,6 @@ Tầng tích chập và tầng pooling có thể được hiệu chỉnh theo c�
 
 ### Tầng tích chập (CONV)
 Giống như các lớp ẩn khác, lớp tích chập lấy dữ liệu đầu vào, thực hiện các phép chuyển đổi để tạo ra dữ liệu đầu vào cho lớp kế tiếp (đầu ra của lớp này là đầu vào của lớp sau). Tầng tích chập (CONV) sử dụng các bộ lọc để thực hiện phép tích chập khi đưa chúng đi qua đầu vào I theo các chiều của nó. Các siêu tham số của các bộ lọc này bao gồm kích thước bộ lọc F và độ trượt (stride) S.
-![image](https://user-images.githubusercontent.com/79899590/115428768-f0f85780-a22c-11eb-8653-a91578ca0947.png)
 ![image](https://user-images.githubusercontent.com/79899590/115431203-3d449700-a22f-11eb-8fac-e99d89f808b1.png)
 <img src="https://media.giphy.com/media/j1POIsEwkHai01p3o2/giphy.gif" width="800">
 
