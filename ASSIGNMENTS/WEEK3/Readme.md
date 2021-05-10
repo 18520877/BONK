@@ -5,3 +5,10 @@ Là phép lọc giúp tìm đường biên cho ảnh
 
 Với A là ma trận ảnh cần lọc.
 
+## Hình gốc
+![image](https://user-images.githubusercontent.com/79899590/117612647-c0eb0700-b18f-11eb-98c2-4d6bb9c17ef9.png)
+
+## Sau khi lọc bằng Sobel Filter trục X
+
+
+## Sau khi lọc bằng Sobel Filter trục Y
