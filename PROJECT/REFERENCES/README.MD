@@ -19,3 +19,4 @@ https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html
 https://www.youtube.com/watch?v=CNNnzl8HIIU
 https://arxiv.org/abs/1603.05027
 https://arxiv.org/pdf/1603.05027.pdf
+http://yann.lecun.com/exdb/publis/pdf/farabet-fpl-09.pdf?fbclid=IwAR0A9AqN1X3jBOLp67JHSj-eYwV__7ZdWZO6EriPVnnwGEE_Z58S_AxpZKE
