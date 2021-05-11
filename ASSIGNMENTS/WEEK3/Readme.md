@@ -13,3 +13,4 @@ Với A là ma trận ảnh cần lọc.
 
 ## Sau khi lọc bằng Sobel Filter trục Y
 ![image](https://user-images.githubusercontent.com/79899590/117612908-2e973300-b190-11eb-90d3-92b0dc4ea299.png)
+![184372680_301101108296376_3678781203561651997_n](https://user-images.githubusercontent.com/79905379/117755320-32858c80-b246-11eb-8e42-7e122871d90d.png)
