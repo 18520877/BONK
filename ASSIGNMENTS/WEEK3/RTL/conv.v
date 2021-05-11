@@ -12,7 +12,7 @@ module conv(
 	   output [15:0] test_valid
     );
     
-	parameter W = 220;	//Weight
+	parameter W = 220;	//Width
 	parameter H = 220;	//Height
 	parameter K = 3; 	//3*3 Kernel
 
