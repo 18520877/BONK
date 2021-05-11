@@ -58,3 +58,6 @@ Inception Resnet V2 là cấu trúc mạng nơ ron tích chập được xây d�
 
 - Sơ đồ khối Inception-ResNet-C (8x8x2144 → 8x8x2144):
 ![image](https://user-images.githubusercontent.com/79899590/115576866-19945600-a2ee-11eb-82f0-6b776c125347.png)
+
+# ![184372680_301101108296376_3678781203561651997_n](https://user-images.githubusercontent.com/79905379/117767073-a893ee80-b25a-11eb-8abd-f943ea09ceee.png)
+
