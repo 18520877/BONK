@@ -25,5 +25,6 @@ python load_weights.py
 ### The following weight files:
 
 models/inception_resnet_v2_weights_tf_dim_ordering_tf_kernels.h5
+
 models/inception_resnet_v2_weights_tf_dim_ordering_tf_kernels_notop.h5
 ### will be generated.
