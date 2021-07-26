@@ -1,4 +1,4 @@
-Padding same: giữ nguyên size input, padding valid: không có
+Input 3 channel image (RGB)
 
 Stem:   Conv33, stride 2, pad 0           	299*299*3 -> 149*149*32
 	Conv33, stride 1, pad 0           	149*149*32 -> 147*147*32
