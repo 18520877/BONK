@@ -1,3 +1,5 @@
+# 1 channel
+
 Stem:   Conv33, stride 2, pad 0           	299*299 -> 149*149
 	Conv33, stride 1, pad 0           	149*149 -> 147*147
 	Conv33, stride 1, pad 1           	147*147 -> 147*147
