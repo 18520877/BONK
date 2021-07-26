@@ -1,0 +1,53 @@
+Padding same: giữ nguyên size input, padding valid: không có
+
+Stem:   Conv33, stride 2, pad 0           	299*299*3 -> 149*149*32
+	Conv33, stride 1, pad 0           	149*149*32 -> 147*147*32
+	Conv33, stride 1, pad 1           	147*147*32 -> 147*147*64
+	MaxPool33, stride 2, pad 0        	147*147*64 -> 73*73*64
+	Conv11, stride 1, pad 0           	73*73*64 -> 73*73*80
+	Conv33, stride 1, pad 0           	73*73*80 -> 71*71*192
+	MaxPool33, stride 2, pad 0        	71*71*192 -> 35*35*192
+
+Inception A:	Conv11, stride 1, pad 0        35*35*192 -> 35*35*48
+		Conv33, stride 1, pad 1        35*35*48 -> 35*35*96
+		Conv33, stride 1, pad 1        35*35*96 -> 35*35*96
+		Conv11, stride 1, pad 0        35*35*192 -> 35*35*48
+		Conv55, stride 1, pad 2        35*35*48 -> 35*35*64
+		Conv11, stride 1, pad 0        35*35*192 -> 35*35*96
+		AvgPool33, stride 1, pad 1     35*35*192 -> 35*35*48
+		Conv11, stride 1, pad 0        35*35*48 -> 35*35*64
+
+IRA:	Conv11, stride 1, pad 0           	35*35*192 -> 35*35*32
+	Conv33, stride 1, pad 1           	35*35*32 -> 35*35*48
+	Conv33, stride 1, pad 1           	35*35*48 -> 35*35*64
+	Conv11, stride 1, pad 0           	35*35*192 -> 35*35*32
+	Conv33, stride 1, pad 1           	35*35*32 -> 35*35*32
+	Conv11, stride 1, pad 0           	35*35*192 -> 35*35*32
+	Conv11, stride 1, pad 0           	35*35*128 -> 35*35*320
+
+RedA:	Conv11, stride 1, pad 0                35*35*320 -> 35*35*256
+	Conv33, stride 1, pad 1                35*35*256 -> 35*35*256
+	Conv33, stride 2, pad 0                35*35*256 -> 17*17*384
+	Conv33, stride 2, pad 0                35*35*320 -> 17*17*384
+	MaxPool33, stride 2, pad 0             35*35*320 -> 17*17*320
+
+IRB: 	Conv11, stride 1, pad 0                17*17*1088 -> 17*17*128
+	Conv17, stride 1, custom pad 3         17*17*128 -> 17*17*160
+	Conv71, stride 1, custom pad 3         17*17*160 -> 17*17*192
+	Conv11, stride 1, pad 0                17*17*1088 -> 17*17*192
+	Conv11, stride 1, pad 0                17*17*384 -> 17*17*1088
+
+RedB:	Conv11, stride 1, pad 0                17*17*1088 -> 17*17*256
+	Conv33, stride 1, pad 1                17*17*256 -> 17*17*288
+	Conv33, stride 2, pad 0                17*17*288 -> 8*8*320
+	Conv11, stride 1, pad 0                17*17*1088 -> 17*17*256
+	Conv33, stride 2, pad 0                17*17*256 -> 8*8*288
+	Conv11, stride 1, pad 0                17*17*1088 -> 17*17*256
+	Conv33, stride 2, pad 0                17*17*256 -> 8*8*384
+	MaxPool 33, stride 2, pad 0            17*17*1088 -> 8*8*1088
+
+IRC:	Conv11, stride 1, pad 0                8*8*2080 -> 8*8*192
+	Conv13, stride 1, custom pad 1         8*8*192 -> 8*8*224
+	Conv31, stride 1, custom pad 1         8*8*224 -> 8*8*256
+	Conv11, stride 1, pad 0                8*8*2080 -> 8*8*192
+	Conv11, stride 1, pad 0                8*8*448 -> 8*8*2080
